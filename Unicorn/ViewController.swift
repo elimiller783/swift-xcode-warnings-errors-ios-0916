@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     func unicorn() -> String {
         
         return "🦄 🦄 🦄 🦄"
-        
+        print("done")
     }
     
     func loveAgain(person: String) -> String {
@@ -25,5 +25,6 @@ class ViewController: UIViewController {
         return person + "♥️"
         
     }
+  
     
 }
